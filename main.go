@@ -66,7 +66,7 @@ func main() {
 		log.Fatal(err)
 	}
 
-	k := "Ether2JPY"
+	k := "pricing.eth.jpy"
 	v := ethBtc * btcJpy
 
 	fmt.Printf("%s\t%f\t%d\n", k, v, time.Now().Unix())
